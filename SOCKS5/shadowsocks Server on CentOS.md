@@ -15,7 +15,7 @@ Since Shadowsocks Node.js is [deprecated](https://github.com/shadowsocks/shadows
     vi ~/.ssconfig.json
 
     {
-        "server":"0.0.0.0",
+        "server":"remote server ip address,not ssh ip address",
         "server_port":8388,
         "local_port":3333,
         "password":"pass!word!",
